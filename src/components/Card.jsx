@@ -9,7 +9,7 @@ import { motion } from "motion/react"
 function Card({ data, reference }) {
     return (
         <>
-            <motion.div drag dragConstraints={reference} whileDrag={{scale:1.2}} className='flex-shrink-0 relative w-60 h-72 rounded-[50px] bg-zinc-800/90 text-white py-10 px-8 overflow-hidden'>
+            <motion.div drag dragConstraints={reference} whileDrag={{ scale: 1.2 }} className='flex-shrink-0 relative w-60 h-72 rounded-[50px] bg-zinc-800/90 text-white py-10 px-8 overflow-hidden'>
                 <FaFileAlt />
                 <p className='text-sm leading-tight mt-5 font-semibold'>{data.desc}</p>
 
