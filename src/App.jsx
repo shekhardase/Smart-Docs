@@ -1,6 +1,7 @@
 import React from 'react'
 import Background from './components/background'
 import Foreground from './components/Foreground'
+import Temp from './components/Temp'
 
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
       <Background />
 
       <Foreground />
-
+      {/* <Temp /> */}
     </div>
+
   )
 }
 
