@@ -1,0 +1,9 @@
+Static
+
+button - > Data Description 
+		 file size 
+		 Complete button 
+			-> Download 
+		Drag currently on whole area
+		top border or some other button
+	
